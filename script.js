@@ -1,4 +1,4 @@
-const SITE_DATA = {"header":{"name":"ex","logo":"","bgImg":"","about":"","email":"","phone":"","address":"","whatsapp":"","instagram":"","mapLink":"","links":"","bg":"#000000","color":"#ffffff","font":"system-ui, sans-serif","hh":52,"logoW":32,"nameSize":17,"align":"left","onlyPage1":false,"floatInfo":true,"phoneLabel":"","waLabel":"","instaLabel":"","emailLabel":"","mapLabel":""},"pages":{"root":{"id":"root","parent":null,"title":"Home","bg":"#fdf1da","gap":12,"pad":12,"mode":"grid","boxes":[{"id":"bpjilk2","kind":"card","child":"pe05s3l","img":"4/watermarked_img_168426288901370442.png","badge":"","badgeSz":18,"label":"Item Name","price":"","w":80,"h":292,"fit":"cover","rad":30,"bw":2,"bc":"#000000","pad":-10,"align":"center","ta":"center","mt":0,"mb":-3,"ml":0,"mr":0,"font":"Georgia, serif","ls":16,"lc":"#000000","lm":"none","lb":"#ffffff","pf":"system-ui, sans-serif","ps":14,"pc":"#111111","pm":"none","pb":"#dcfce7"}],"bgImg":""},"pe05s3l":{"id":"pe05s3l","parent":"root","title":"Item","bg":"#fdf1da","gap":12,"pad":12,"mode":"grid","boxes":[{"id":"bacp6n7","kind":"slider","w":100,"align":"center","h":365,"fit":"cover","r":20,"imgs":["4/watermarked_img_18056231510984788668.png","4/watermarked_img_11970662954441319237.png","4/watermarked_img_168426288901370442.png"],"interval":2,"tick":false,"ticker":"","bg":"#111111","color":"#ffffff","spd":0,"mt":15,"mb":3,"ml":0,"mr":0},{"id":"bugzmpw","kind":"button","w":100,"align":"center","text":"Order on WhatsApp","mt":8,"mb":8,"ml":0,"mr":0,"wa":{"on":true,"num":"7067622013","customMsg":"ye chaiye sir","msgImg":"4/watermarked_img_168426288901370442.png","text":"Order on WhatsApp","logo":false,"logoSize":18,"font":"Georgia, serif","size":15,"color":"#000000","bg":"#fcecd2","bgImg":"","bw":1,"bc":"#111111","w":70,"h":44,"r":4,"mt":10,"ml":0,"mr":0,"al":"center","msgAsset":"4/watermarked_img_168426288901370442.png","msgLink":"assets/4/watermarked_img_168426288901370442.png"}}],"bgImg":""}}};
+const SITE_DATA = {"header":{"name":"ex","logo":"","bgImg":"","about":"","email":"","phone":"","address":"","whatsapp":"","instagram":"","mapLink":"","links":"","bg":"#000000","color":"#ffffff","font":"system-ui, sans-serif","hh":52,"logoW":32,"nameSize":17,"align":"left","onlyPage1":false,"floatInfo":true,"phoneLabel":"","waLabel":"","instaLabel":"","emailLabel":"","mapLabel":""},"pages":{"root":{"id":"root","parent":null,"title":"Home","bg":"#fdf1da","gap":12,"pad":12,"mode":"grid","boxes":[{"id":"bpjilk2","kind":"card","child":"pe05s3l","img":"4/watermarked_img_168426288901370442.png","badge":"","badgeSz":18,"label":"Item Name","price":"","w":80,"h":292,"fit":"cover","rad":30,"bw":2,"bc":"#000000","pad":-10,"align":"center","ta":"center","mt":0,"mb":-3,"ml":0,"mr":0,"font":"Georgia, serif","ls":16,"lc":"#000000","lm":"none","lb":"#ffffff","pf":"system-ui, sans-serif","ps":14,"pc":"#111111","pm":"none","pb":"#dcfce7"}],"bgImg":""},"pe05s3l":{"id":"pe05s3l","parent":"root","title":"Item","bg":"#fdf1da","gap":12,"pad":12,"mode":"grid","boxes":[{"id":"bacp6n7","kind":"slider","w":100,"align":"center","h":365,"fit":"cover","r":20,"imgs":["4/watermarked_img_18056231510984788668.png","4/watermarked_img_11970662954441319237.png","4/watermarked_img_168426288901370442.png"],"interval":2,"tick":false,"ticker":"","bg":"#111111","color":"#ffffff","spd":0,"mt":15,"mb":3,"ml":0,"mr":0},{"id":"bugzmpw","kind":"button","w":100,"align":"center","text":"Order on WhatsApp","mt":8,"mb":8,"ml":0,"mr":0,"wa":{"on":true,"num":"7067622013","customMsg":"ye chaiye sir","msgImg":"4/watermarked_img_18056231510984788668.png","text":"Order on WhatsApp","logo":false,"logoSize":18,"font":"Georgia, serif","size":15,"color":"#000000","bg":"#fcecd2","bgImg":"","bw":1,"bc":"#111111","w":70,"h":44,"r":4,"mt":10,"ml":0,"mr":0,"al":"center","msgAsset":"4/watermarked_img_18056231510984788668.png","msgLink":"assets/4/watermarked_img_18056231510984788668.png"}}],"bgImg":""}}};
 (function(D, app, edit) {
     let cur = 'root', sel = null, selMulti = [], open = false, tm = [];
     const WA_SVG = '<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824z"/></svg>';
@@ -51,42 +51,25 @@ const SITE_DATA = {"header":{"name":"ex","logo":"","bgImg":"","about":"","email"
       return '<aside class="info' + (open ? ' open' : '') + '"><div class="ih">' + (h.logo ? '<img src="' + U(h.logo) + '" alt="">' : '') + '<b>' + E(h.name) + '</b><button data-a="menu">X</button></div>' + (h.about ? '<p>' + E(h.about) + '</p>' : '') + (h.address ? '<p>' + E(h.address) + '</p>' : '') + L.join('') + '</aside>';
     }
 
-    function waPayload(w, titleText, priceText) {
+    function waPayload(w, titleText, priceText, fallbackImg) {
       const num = waNum(w.num || D.header.whatsapp || D.header.phone || '');
       const t = titleText || '', p = priceText || '';
       const rawLink = String(w.msgLink || '').trim();
       const assetKey = String(w.msgAsset || '').replace(/\\/g, '/').replace(/^\/+|\/+$/g, '');
-      let link = '';
-      if (rawLink && /^https?:\/\//i.test(rawLink)) {
-        link = rawLink;
-      } else {
-        const rel = assetKey
-          ? ('assets/' + assetKey.split('/').filter(Boolean).map(encodeURIComponent).join('/'))
-          : rawLink;
-        link = rel;
-        try {
-          if (rel && !edit && /^https?:\/\//i.test(location.href)) {
-            link = new URL(rel, location.href).href;
-          }
-        } catch (_e) {}
-      }
+      const imgKey = assetKey || (w.msgImg === '__auto__' ? (fallbackImg || '') : String(w.msgImg || '').trim());
       let msg = (w.customMsg || '').trim();
       if (msg) {
-        msg = msg.replace(/\{title\}/gi, t).replace(/\{price\}/gi, p);
-        if (link) {
-          msg = /\{link\}/i.test(msg) ? msg.replace(/\{link\}/gi, link) : (msg + '\nPhoto: ' + link);
-        }
-      } else if (link) {
-        msg = (t ? 'Hi, I want to order: ' + t + (p ? ' (' + p + ')' : '') + '\n' : '') + 'Photo: ' + link;
+        msg = msg.replace(/\{title\}/gi, t).replace(/\{price\}/gi, p).replace(/\{link\}/gi, '').trim();
       } else {
         msg = 'Hi, I want to order: ' + t + (p ? ' (' + p + ')' : '');
       }
-      return { num, msg };
+      const shareImg = imgKey ? U(imgKey) : (rawLink && /^https?:\/\//i.test(rawLink) ? rawLink : '');
+      return { num, msg, shareImg };
     }
 
-    function waBtn(w, titleText, priceText) {
+    function waBtn(w, titleText, priceText, fallbackImg) {
       if (!w || !w.on) return '';
-      const pl = waPayload(w, titleText, priceText);
+      const pl = waPayload(w, titleText, priceText, fallbackImg);
       const sz = Number(w.logoSize || 18);
       const ic = w.logo ? `<span style="display:inline-flex;width:${sz}px;height:${sz}px;align-items:center;justify-content:center">${WA_SVG}</span>` : '';
       const bdw = Number(w.bw || 0);
@@ -94,7 +77,9 @@ const SITE_DATA = {"header":{"name":"ex","logo":"","bgImg":"","about":"","email"
       const bg = w.bgImg ? `url('${U(w.bgImg)}') center/cover no-repeat` : E(w.bg || '#16a34a');
       const waUrl = pl.num ? `https://wa.me/${pl.num}?text=${encodeURIComponent(pl.msg)}` : '';
       const hrefAttr = waUrl ? `href="${E(waUrl)}"` : '';
-      return `<a class="wa" ${hrefAttr} target="_blank" rel="noopener" style="align-self:${AL[w.al] || 'center'};margin-top:${Number(w.mt || 0)}px;margin-left:${Number(w.ml || 0)}px;margin-right:${Number(w.mr || 0)}px;width:${Number(w.w || 75)}%;height:${Number(w.h || 44)}px;border-radius:${Number(w.r || 6)}px;font-family:${E(w.font || 'inherit')};font-size:${Number(w.size || 15)}px;color:${E(w.color || '#fff')};background:${bg};${bd}">${ic}<span>${E(w.text || 'Order on WhatsApp')}</span></a>`;
+      const imgAttr = pl.shareImg ? `data-wa-img="${E(pl.shareImg)}"` : '';
+      const msgAttr = `data-wa-msg="${E(pl.msg)}"`;
+      return `<a class="wa" ${hrefAttr} ${imgAttr} ${msgAttr} target="_blank" rel="noopener" style="align-self:${AL[w.al] || 'center'};margin-top:${Number(w.mt || 0)}px;margin-left:${Number(w.ml || 0)}px;margin-right:${Number(w.mr || 0)}px;width:${Number(w.w || 75)}%;height:${Number(w.h || 44)}px;border-radius:${Number(w.r || 6)}px;font-family:${E(w.font || 'inherit')};font-size:${Number(w.size || 15)}px;color:${E(w.color || '#fff')};background:${bg};${bd}">${ic}<span>${E(w.text || 'Order on WhatsApp')}</span></a>`;
     }
 
     function detail(d) {
@@ -211,11 +196,38 @@ const SITE_DATA = {"header":{"name":"ex","logo":"","bgImg":"","about":"","email"
       const t = e.target;
       if (edit && t.closest('a')) e.preventDefault();
       if (!edit) {
-        const waEl = t.closest('a.wa[href]');
-        if (waEl && /Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
-          e.preventDefault();
-          location.href = waEl.href;
-          return;
+        const waEl = t.closest('a.wa');
+        if (waEl) {
+          const imgSrc = waEl.getAttribute('data-wa-img') || '';
+          const msgTxt = waEl.getAttribute('data-wa-msg') || '';
+          const hrefVal = waEl.getAttribute('href') || '';
+          if (imgSrc && navigator.share && navigator.canShare) {
+            e.preventDefault();
+            (async () => {
+              try {
+                const res = await fetch(imgSrc);
+                const blob = await res.blob();
+                const ext = (blob.type && blob.type.split('/')[1]) || 'png';
+                const file = new File([blob], 'product.' + ext, { type: blob.type || 'image/png' });
+                if (navigator.canShare({ files: [file] })) {
+                  await navigator.share({ files: [file], text: msgTxt });
+                  return;
+                }
+              } catch (err) {
+                if (err && err.name === 'AbortError') return;
+              }
+              if (hrefVal) {
+                if (/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) location.href = hrefVal;
+                else window.open(hrefVal, '_blank', 'noopener');
+              }
+            })();
+            return;
+          }
+          if (hrefVal && /Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+            e.preventDefault();
+            location.href = hrefVal;
+            return;
+          }
         }
       }
       const a = t.closest('[data-a]');
